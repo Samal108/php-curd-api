@@ -16,7 +16,7 @@ include_once("../classes/student.php");
 $db=new Database();
 $connection=$db->getConnection();
 
-// create student obj-2
+// create student obj-3
 $student=new Student($connection);
 if($_SERVER['REQUEST_METHOD']==='DELETE'){
 
